@@ -3,7 +3,7 @@
 ## 安装
 
 ```bash
-composer require "saviorlv/yii2-dysms:dev-master"
+composer require "saviorlv/aliyun-dysms:dev-master"
 ```
 
 > or添加下列代码在composer.json文件中并执行composer update 操作
@@ -11,27 +11,13 @@ composer require "saviorlv/yii2-dysms:dev-master"
 ```bash
 {
     "require": {
-       "saviorlv/yii2-dysms":"dev-master"
+       "saviorlv/aliyun-dysms":"dev-master"
     }
 }
 ```
 
 ## 设置方法
 
-#### 全局使用
-> 在config/main.php配置文件中定义component配置信息
-```bash
-'components' => [
-  .....
-  'aliyun' => [
-      'class' => 'saviorlv\aliyun\Sms',
-      'accessKeyId' => '123455',
-      'accessKeySecret' => '122345666'
-    ],
-  ....
-]
-
-```
 > 代码中调用（调用短信发送接口示例）
 
 ```bash

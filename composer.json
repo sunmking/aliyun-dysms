@@ -1,5 +1,5 @@
 {
-    "name": "saviorlv/yii2-dysms",
+    "name": "saviorlv/aliyun-dysms",
     "description": "Aliyun SMS SDK for Yii2",
     "keywords": [ "aliyun", "SMS", "sdk", "Yii2"],
     "type": "library",
