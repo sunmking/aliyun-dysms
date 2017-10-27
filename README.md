@@ -21,15 +21,18 @@ composer require "saviorlv/aliyun-dysms:dev-master"
 > 代码中调用（调用短信发送接口示例）
 
 ```bash
-$response = Yii::$app->aliyun->sendSms(
-            "孙坤峰", // 短信签名
-            "SMS_76350132", // 短信模板编号
-            "13673715134", // 短信接收者
-            Array(  // 短信模板中字段的值
-                "code"=>"12345",
-                "product"=>"dsd"
-            ),
-            "123"
-        );
-        print_r($response);
+    $accessKeyId = '2w2w2';
+    $accessKeySecret = '2w2w2w2w2w';
+    $obj = new Sms($accessKeyId,$accessKeySecret);
+    $response = $obj->sendSms(
+        "孙坤峰", // 短信签名
+        "SMS_76350132", // 短信模板编号
+        "13673715134", // 短信接收者
+        Array(  // 短信模板中字段的值
+            "code"=>"12345",
+            "product"=>"dsd"
+        ),
+        "123"
+    );
+    print_r($response);
 ```
