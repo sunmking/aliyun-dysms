@@ -1,10 +1,10 @@
 {
     "name": "saviorlv/aliyun-dysms",
-    "description": "Aliyun SMS SDK for Yii2",
-    "keywords": [ "aliyun", "SMS", "sdk", "Yii2"],
+    "description": "Aliyun SMS SDK for PHP",
+    "keywords": [ "aliyun", "SMS", "sdk"],
     "type": "library",
     "license": "Apache-2.0",
-    "homepage": "https://github.com/saviorlv/yii2-dysms",
+    "homepage": "https://github.com/saviorlv/aliyun-dysms",
     "authors": [
         {
             "name": "saviorlv",
