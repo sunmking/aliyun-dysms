@@ -42,7 +42,7 @@ composer require "saviorlv/aliyun-dysms:dev-master"
 
     //批量
 
-    $response = Yii::$app->aliyun->sendBatchSms(
+    $response = $obj->sendBatchSms(
                 array("孙坤峰","孙坤峰"), // 短信签名
                 "SMS_76350132", // 短信模板编号
                 array("136*****134","180*****459"), // 短信接收者
